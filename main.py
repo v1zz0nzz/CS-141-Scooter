@@ -3,7 +3,7 @@ if userinput == "k":
     userinput = float(input("How many kilometers do you want to go?"))
     convert = userinput * 0.621371 
     print("That's", convert, "miles")
-    time = userinput/15 * 60
+    time = convert/15 * 60
     print("your time in minutes: ", time)
     compA = time * 0.15 + 1
     compB = 2.50 + (.12 * (time - 5))
